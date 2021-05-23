@@ -1,0 +1,32 @@
+{
+  "name": "flutter_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tiago Danin <TiagoDanin@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+		"start": "env-cmd node index.js",
+		"lint": "xo"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+    "helmet": "^4.4.1"
+	},
+	"devDependencies": {
+		"env-cmd": "10.1.0",
+		"xo": "0.32.1"
+	},
+	"xo": {
+		"rules": {
+			"quote-props": "warn",
+			"eqeqeq": "off",
+			"array-callback-return": "warn",
+			"require-atomic-updates": "warn",
+			"no-else-return": "warn",
+			"camelcase": "off",
+			"no-unused-vars": "warn",
+			"no-return-await": "warn"
+		},
+		"semicolon": false
+	}
+}

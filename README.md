@@ -1,16 +1,62 @@
-# flutter_express
+# Flutter Express
 
 Flutter web example aplication deployed with ExpressJs
 
-## Getting Started
+# Running Server
 
-This project is a starting point for a Flutter application.
+```bash
+# Build application in web mode
+$ flutter build web 
 
-A few resources to get you started if this is your first Flutter project:
+# Start Express Server
+$ yarn start
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Installation
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Module available through the [npm registry](https://www.npmjs.com/). It can be installed using the [`npm`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally) or [`yarn`](https://yarnpkg.com/en/) command line tool.
+
+```sh
+# Yarn (Recomend)
+yarn add flutter_express
+# NPM
+npm install flutter_express --save
+```
+
+## Dependencies
+
+<details>
+        <summary><a href="https://ghub.io/express">express</a>: Fast, unopinionated, minimalist web framework</summary>
+        <b>Author</b>: TJ Holowaychuk</br>
+        <b>License</b>: MIT</br>
+        <b>Version</b>: ^4.17.1
+</details>
+<details>
+        <summary><a href="https://ghub.io/helmet">helmet</a>: help secure Express/Connect apps with various HTTP headers</summary>
+        <b>Author</b>: Adam Baldwin</br>
+        <b>License</b>: MIT</br>
+        <b>Version</b>: ^4.4.1
+</details>
+
+## Dev Dependencies
+
+<details>
+        <summary><a href="https://ghub.io/env-cmd">env-cmd</a>: Executes a command using the environment variables in an env file</summary>
+        <b>Author</b>: Todd Bluhm</br>
+        <b>License</b>: MIT</br>
+        <b>Version</b>: 10.1.0
+</details>
+<details>
+        <summary><a href="https://ghub.io/xo">xo</a>: JavaScript/TypeScript linter (ESLint wrapper) with great defaults</summary>
+        <b>Author</b>: Sindre Sorhus</br>
+        <b>License</b>: MIT</br>
+        <b>Version</b>: 0.32.1
+</details>
+
+## Contributors
+
+Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/user/repo/issues). [List of all contributors](https://github.com/user/repo/graphs/contributors).
+
+## License
+
+[MIT](LICENSE) © Tiago Danin <TiagoDanin@outlook.com>

@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"express": "^4.17.1",
-    "helmet": "^4.4.1"
+    "helmet": "^5.0.0"
 	},
 	"devDependencies": {
 		"env-cmd": "10.1.0",

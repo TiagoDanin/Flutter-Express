@@ -13,7 +13,7 @@
     "helmet": "^4.4.1"
 	},
 	"devDependencies": {
-		"env-cmd": "10.1.0",
+		"env-cmd": "11.0.0",
 		"xo": "0.32.1"
 	},
 	"xo": {
